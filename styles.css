@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: white;
+    width: 100%;
+  }
+  
+  header {
+    width: 98%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-image: linear-gradient(to left, lightgreen, rgb(40, 40, 40));
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 0.7em 0.7em 0 0;
+  }
+  
+  #title {
+    font-family: times new romans;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.5em;
+  }
+  
+  .subtitle {
+    font-family: verdana;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #figure-section {
+    background-color: rgb(150, 150, 150);
+    padding-top: 2em;
+  }
+  
+  #main {
+    width: 98%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    height: 500px;
+    width: 80%;
+    min-width: 450px;
+    background-image: linear-gradient(to top right, lightgreen, rgb(40, 40, 40));
+    padding-bottom: 5.5rem;
+    padding-top: 2em;
+    margin: 0 auto;
+    border-radius: 0.7em;
+  }
+  
+  #image {
+    height: auto;
+    width: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border: black solid;
+    box-sizing: border-box;
+  }
+  
+  #img-caption {
+    width: 100%;
+    font-style: italic;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    text-align: center;
+  }
+  
+  #main-section {
+    width: 100%;
+    padding-top: 1em;
+    background-color: rgb(150, 150, 150);
+    display: flex;
+    justify-content: center;
+  }
+  
+  #tribute-info {
+    width: 50%;
+    text-align: justify;
+    background-color: rgb(150, 150, 150);
+  }
+  
+  h2 {
+    font-family: times new romans;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.5em;
+  }
+  
+  li {
+    font-family: verdana;
+    font-size: 16px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  
+  .king-quote-div {
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: rgb(150, 150, 150);
+  }
+  
+  .king-quote-p {
+    font-style: italic;
+    padding-bottom: 0.5em;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .king {
+    text-align: center;
+  }
+  
+  .footer-div {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+     background-image: linear-gradient(to right, lightgreen, rgb(40, 40, 40));
+    border-radius: 0 0 0.7em 0.7em;
+  }
+  
+  .footer-p {
+    width: 40%;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+  }
+  
+  .ending-space {
+    height: 2rem;
+    width: 100%;
+    background-color: white;
+  }
