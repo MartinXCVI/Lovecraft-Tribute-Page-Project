@@ -1,63 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="MDA">
-    <meta name="description" content="Lovecraft's tribute page.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>H. P. Lovecraft</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="author" content="MDA">
+      <meta name="description" content="Lovecraft's tribute page.">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Google font "Cardo" (weight: 400, 700) {font-family: 'Cardo', serif;}-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
+      <!------------------------------------------------------------------------->
+      <!--Google font "AR One Sans" (weight: 400, 500, 600) {font-family: 'AR One Sans', sans-serif;}-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+      <!------------------------------------------------------------------------------------------------>
+      <!--CSS Stylesheet-->
+      <link rel="stylesheet" href="css/styles.css">
+      <!------Title------>
+      <title>H. P. Lovecraft</title>
+  </head>
 
-<body>
-  <header>
-    <h1 id="title">Howard Phillips Lovecraft</h1>
-    <p class="subtitle">Writer, editor, novelist and poet.</p>
-  </header>
-  <main id="main">
-    <section id="figure-section">
-    <figure id="img-div">
-      <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/H.P._Lovecraft_statue_in_Providence%2C_RI_sculpted_by_artist_Gage_Prentiss._Photo_by_David_Lepage.jpg/450px-H.P._Lovecraft_statue_in_Providence%2C_RI_sculpted_by_artist_Gage_Prentiss._Photo_by_David_Lepage.jpg?20191128141258">
-      <figcaption id="img-caption">H. P. Lovecraft's statue in providence, Rhode Island. -- Crafted by artist Gage Prentiss.</figcaption>
-    </figure>
+  <body>
+    
+    
+    
 
-  </section>
-  <section id="main-section">
-    <article id="tribute-info">
-      <h2>A short summary of his life:</h2>
-      <ul>
-        <li>1890 — Born in Providence, Rhode Island.</li>
-        <li>1902 — Enters High-School.</li>
-        <li>1904 — Traumatic experience with the loss of his grandfather.</li>
-        <li>1905 — Writes his first tale: <em>The Beast in the Cave</em>.</li>
-        <li>1911 — Lovecraft's letters to editors began appearing in pulp and weird-fiction magazines.</li>
-        <li>1914 — Becomes a member of the United Amateur Press Association.</li>
-        <li>1916 — First short story published: <em>The Alchemist</em>.</li>
-        <li>1920 — He began publishing the earliest Cthulhu Mythos stories.</li>
-        <li>1921 — Meets his future wife Sonia Greene at an amateur journalists convention.</li>
-        <li>1924 — In spite of Lovecraft's family's disapproval, they both get married and move to New York.</li>
-        <li> 1924 — Gets a formal job as a professional writer.</li>
-        <li>1925 — Writes <em>The Red Hook</em>, <em>He</em>, the outline for <em>The Call of Cthulhu</em>, with its theme of the insignificance of all humanity, and <em>Supernatural Horror in Literature</em>.</li>
-        <li>1926 — Times of trouble and depression: Howard and Sonia part ways. He returns to Providence.</li>
-        <li>1927 — Somehow manages to get out of that terrible abyss of sadness and emptiness, and starts to flowrish humanly as a writer.</li>
-        <li>1928 — Publishes <em>The Call of Cthulhu</em> in the pulp magazine Weird Tales.</li>
-        <li>1932 — Tragic loss of his aunt, Mrs. Clark.</li>
-        <li>1933 — Moves with his other aunt, Mrs. Gamwell. Finding it hard to sell tales that were difficult to read, starts to work as a ghostwritter. </li>
-        <li>1936 — Publishes <em>At the Mountains of Madness</em>. In the same year, his close friend Robert Howard commits suicide. Depression and confusion make a come back.</li>
-        <li>1937 — After seeing a doctor, he was diagnosed with terminal cancer of the small intestine. He lived in constant pain until his death on March 15, 1937, in Providence.</li>
-      </ul>
-      <div class="king-quote-div">
-        <p class="king-quote-p">"I think it is beyond doubt that H. P. Lovecraft has yet to be surpassed as the twentieth century greatest practitioner of the classic horror tale."</p>
-        <p></p>
-        <p class="king">— Stephen King</p>
+    <!----Main---->
+    <main id="principal">
+
+      <!----Header---->
+      <section id="header">
+        <h1 id="title">Howard Phillips Lovecraft</h1>
+        <p class="subtitle">Writer, editor, novelist and poet.</p>
+      </section>
+      <!-------------->
+
+      <!----Container---->
+      <section id="main-section">
+        <!--Mark with HPL figure/img-->
+        <section id="figure-section">
+          <figure id="fig-lovecraft">
+            <img id="img-lovecraft" src="img/hpl-statue.png" alt="howard lovecraft statue">
+            <figcaption id="img-caption">
+              <p>H. P. Lovecraft's statue in providence, Rhode Island</p>
+              <p>Crafted by artist Gage Prentiss</p>
+            </figcaption>
+          </figure>
+        </section>
+      
+        <!--Summary article-->
+        <article id="tribute-info">
+          <h2>A short summary of his life:</h2>
+          <ul id="lifetime-list">
+            <li>1890 — Born in Providence, Rhode Island.</li>
+            <li>1902 — Enters High-School.</li>
+            <li>1904 — Traumatic experience with the loss of his grandfather.</li>
+            <li>1905 — Writes his first tale: <em>The Beast in the Cave</em>.</li>
+            <li>1911 — Lovecraft's letters to editors began appearing in pulp and weird-fiction magazines.</li>
+            <li>1914 — Becomes a member of the United Amateur Press Association.</li>
+            <li>1916 — First short story published: <em>The Alchemist</em>.</li>
+            <li>1920 — He began publishing the earliest Cthulhu Mythos stories.</li>
+            <li>1921 — Meets his future wife Sonia Greene at an amateur journalists convention.</li>
+            <li>1924 — In spite of Lovecraft's family's disapproval, they both get married and move to New York.</li>
+            <li> 1924 — Gets a formal job as a professional writer.</li>
+            <li>1925 — Writes <em>The Red Hook</em>, <em>He</em>, the outline for <em>The Call of Cthulhu</em>, with its theme of the insignificance of all humanity, and <em>Supernatural Horror in Literature</em>.</li>
+            <li>1926 — Times of trouble and depression: Howard and Sonia part ways. He returns to Providence.</li>
+            <li>1927 — Somehow manages to get out of that terrible abyss of sadness and emptiness, and starts to flowrish humanly as a writer.</li>
+            <li>1928 — Publishes <em>The Call of Cthulhu</em> in the pulp magazine Weird Tales.</li>
+            <li>1932 — Tragic loss of his aunt, Mrs. Clark.</li>
+            <li>1933 — Moves with his other aunt, Mrs. Gamwell. Finding it hard to sell tales that were difficult to read, starts to work as a ghostwritter. </li>
+            <li>1936 — Publishes <em>At the Mountains of Madness</em>. In the same year, his close friend Robert Howard commits suicide. Depression and confusion make a come back.</li>
+            <li>1937 — After seeing a doctor, he was diagnosed with terminal cancer of the small intestine. He lived in constant pain until his death on March 15, 1937, in Providence.</li>
+          </ul>
+          <!----Final quote---->
+          <div class="quote-div">
+            <p class="quote-p">“I know always that I am an outsider; a stranger in this century and among those who are still men.”</p>
+            <p></p>
+            <p class="signature">— H. P. Lovecraft</p>
+          </div>
+        </article>
+      </section>
+
+      <!----"Footer"---->
+      <div id="footer-div">
+        <p class="footer-p">If you're interested in Lovecraftian horror, we recommend you to visit this <a id="tribute-link" href="https://en.wikipedia.org/wiki/H._P._Lovecraft_bibliography" target="_blank">Wikipedia page</a> which contains a full list of H. P. Lovecraft's works.</p>
       </div>
-    </article>
-</section>
-    <div class="footer-div">
-      <p class="footer-p">If you're interested in Lovecraftian horror, we recommend you to visit this <a id="tribute-link" href="https://en.wikipedia.org/wiki/H._P._Lovecraft_bibliography" target="_blank">Wikipedia page</a> which contains a full list of H. P. Lovecraft's works.</p>
-    </div>
-    <div class="ending-space">
-    </div>
-  </main>
-</body>
+      <!---------------->
+    </main>
+    <!--END: Main-->
+
+  </body>
+</html>
