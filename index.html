@@ -16,8 +16,10 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600&display=swap" rel="stylesheet">
       <!------------------------------------------------------------------------------------------------>
-      <!--CSS Stylesheet-->
+      <!------CSS Stylesheet------>
       <link rel="stylesheet" href="css/styles.css">
+      <!------jQuery CDN link------>
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
       <!------Title------>
       <title>H. P. Lovecraft</title>
   </head>
@@ -71,12 +73,12 @@
             <li>1936 — Publishes <em>At the Mountains of Madness</em>. In the same year, his close friend Robert Howard commits suicide. Depression and confusion make a come back.</li>
             <li>1937 — After seeing a doctor, he was diagnosed with terminal cancer of the small intestine. He lived in constant pain until his death on March 15, 1937, in Providence.</li>
           </ul>
-          <!----Final quote---->
+          <!----Final quote div---->
           <blockquote class="quote-div">
-            <p class="quote-p"><q>I know always that I am an outsider; a stranger in this century and among those who are still men.</q></p>
-            <p></p>
+            <p id="hpl-quote" class="quote-p"><q>I know always that I am an outsider; a stranger in this century and among those who are still men.</q></p>
             <p class="signature">— H. P. Lovecraft</p>
           </blockquote>
+          <button id="quoteBtn">New quote</button>
         </article>
       </section>
 
@@ -84,3 +86,10 @@
       <div id="footer-div">
         <p class="footer-p">If you're interested in Lovecraftian horror, we recommend you to visit this <a id="tribute-link" href="https://en.wikipedia.org/wiki/H._P._Lovecraft_bibliography" target="_blank">Wikipedia page</a> which contains a full list of H. P. Lovecraft's works.</p>
       </div>
+    </main><!----END of main---->
+    
+    <!------JavaScript files------>
+    <script src="js/quote.js"></script>
+    <!------END OF BODY------>
+  </body>
+</html>
